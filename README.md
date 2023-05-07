@@ -1,16 +1,13 @@
+
 # webrtc_streamer
 
-A new Flutter project.
+A Flutter application that streams video with WebRTC Technology. Meant to be used to test and/or use as a boilerplate to build Video Streaming apps/utilities for platforms supported by flutter.
 
+  
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Use `flutter run` to run the app.
 
-A few resources to get you started if this is your first Flutter project:
+> **Prerquisite:** `flutter` should be installed in the device/virtual environment running the above command.
+<br> To use the app for a specific target that **does not** have Flutter installed, build the universal, *web app* (with `flutter build web`)  or the target app platform (with `flutter build <target>`) and use the bundle.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
