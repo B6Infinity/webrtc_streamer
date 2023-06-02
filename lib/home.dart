@@ -239,8 +239,17 @@ class _StreamerState extends State<Streamer> {
           const SizedBox(height: 20),
           sdpCandidateButtons(),
           const SizedBox(height: 30),
-          TextField(controller: localSDPController, maxLines: 2),
-          TextField(controller: candidateController),
+          TextField(
+            controller: localSDPController,
+            maxLines: 2,
+            decoration:
+                InputDecoration(hintText: "LocalSDP get populated here..."),
+          ),
+          TextField(
+            controller: candidateController,
+            decoration:
+                InputDecoration(hintText: "Candidates get populated here..."),
+          ),
         ],
       ),
     );
@@ -450,8 +459,17 @@ class _ViewerState extends State<Viewer> {
           const SizedBox(height: 20),
           sdpCandidateButtons(),
           const SizedBox(height: 30),
-          TextField(controller: localSDPController, maxLines: 2),
-          TextField(controller: candidateController),
+          TextField(
+            controller: localSDPController,
+            maxLines: 2,
+            decoration:
+                InputDecoration(hintText: "LocalSDP get populated here..."),
+          ),
+          TextField(
+            controller: candidateController,
+            decoration:
+                InputDecoration(hintText: "Candidates get populated here..."),
+          ),
         ],
       ),
     );
