@@ -18,7 +18,9 @@ There are two textboxes below the button, the top one is Local SDP of the peer a
 
 1. _**Create Offer**_ in the Streamer. The Local SDP and candidate text boxes will get populated.
 2.  Copy them and paste them in the Upper textbox of the Viewer and _**Set Remote Desc.**_ and **_Set Candidate_** respectively.
-3.  Should work...
+3.  _**Answer**_ in the Viewer. The fields will get populated as well in the Viewer Textboxes.
+4.  Repeat Step 2 for the Streamer as well.
+5.  Should work...
 
 
 ## Current Limitations
